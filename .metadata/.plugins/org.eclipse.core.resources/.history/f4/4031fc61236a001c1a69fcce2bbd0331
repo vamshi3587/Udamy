@@ -1,0 +1,28 @@
+package com.checkyourluck.controller;
+
+import java.util.Random;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.checkyourluck.model.CheckYourLuck;
+
+@RestController
+public class CheckYourLuckController {
+
+	@GetMapping("/{givenNumber}")
+	public String validateNumber(@PathVariable int givenNumber) {
+		int randomNumber=new Random().nextInt(100);
+		CheckYourLuck ch=new CheckYourLuck();
+		ch.setGivenNumber(givenNumber);
+		ch.setRandomNumber(randomNumber);
+		System.out.println("Given Number /n"+givenNumber+ "Random Number "+randomNumber);
+		if(givenNumber==randomNumber) {
+		return "Success";
+		}
+		else {
+			return "false";
+		}
+	}
+}

@@ -1,0 +1,5 @@
+package com.vbank.cards.repository;
+
+public interface CardRepository {
+
+}

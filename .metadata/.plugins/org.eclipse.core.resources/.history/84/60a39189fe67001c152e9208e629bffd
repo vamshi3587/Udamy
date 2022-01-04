@@ -1,0 +1,5 @@
+package com.vbank.cards.controller;
+
+public class CardsController {
+
+}

@@ -1,0 +1,5 @@
+package com.vbank.cards.model;
+
+public class Customers {
+
+}

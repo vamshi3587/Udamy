@@ -1,0 +1,5 @@
+package com.checkyourluck.repository;
+
+public interface CheckYourLuckRepository {
+
+}

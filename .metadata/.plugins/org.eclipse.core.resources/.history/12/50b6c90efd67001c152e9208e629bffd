@@ -1,0 +1,11 @@
+package com.vbank.accounts.model;
+
+import java.time.LocalDate;
+
+public class Accounts {
+private int customerId;
+private long accountNumber;
+private String accountType;
+private String branceAddress;
+private LocalDate createDt;
+}

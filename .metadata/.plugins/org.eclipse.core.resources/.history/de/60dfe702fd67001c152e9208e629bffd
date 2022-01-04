@@ -1,0 +1,5 @@
+package com.vbank.accounts.controller;
+
+public class AccountsController {
+
+}

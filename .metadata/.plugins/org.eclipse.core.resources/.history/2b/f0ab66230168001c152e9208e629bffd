@@ -1,0 +1,5 @@
+package com.vbank.loans.repository;
+
+public class LoanRepository {
+
+}
