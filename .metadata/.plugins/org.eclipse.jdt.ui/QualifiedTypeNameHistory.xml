@@ -35,4 +35,5 @@
     <fullyQualifiedTypeName name="com.vbank.loans.config.LoansServiceConfig"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.vbank.loans.model.Properties"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.context.config.annotation.RefreshScope"/>
 </qualifiedTypeNameHistroy>

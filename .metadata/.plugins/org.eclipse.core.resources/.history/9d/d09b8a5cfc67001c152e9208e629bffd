@@ -1,5 +1,0 @@
-package com.vbank.accounts.repository;
-
-public class AccountsRepository {
-
-}
