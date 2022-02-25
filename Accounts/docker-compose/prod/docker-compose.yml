@@ -9,6 +9,25 @@ services:
       - "1237:1237"
     networks:
      - vbank
+     
+  eurekaserver:
+    image: vbank/eurekaserver:latest
+    mem_limit: 700m
+    ports:
+      - "1238:1238"
+    networks:
+      - vbank
+    depends_on:
+      - configserver
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      SPRING_CONFIG_IMPORT: configserver:http://configserver:1237/
       
   accounts:
     image: vbank/accounts:latest

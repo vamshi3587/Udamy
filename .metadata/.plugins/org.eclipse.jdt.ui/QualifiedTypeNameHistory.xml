@@ -27,13 +27,24 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectWriter"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="com.vbank.accounts.model.Properties"/>
     <fullyQualifiedTypeName name="com.vbank.cards.config.CardsServiceConfig"/>
     <fullyQualifiedTypeName name="com.vbank.cards.model.Properties"/>
     <fullyQualifiedTypeName name="com.vbank.loans.config.LoansServiceConfig"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.vbank.loans.model.Properties"/>
     <fullyQualifiedTypeName name="org.springframework.cloud.context.config.annotation.RefreshScope"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.EnableFeignClients"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="com.vbank.accounts.client.CardsFeignClient"/>
+    <fullyQualifiedTypeName name="com.vbank.accounts.client.LoansFeignClient"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.vbank.config.Test4"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,0 @@
-package com.vbank.accounts.config;
-
-public class AccountsServiceConfig {
-
-}
